@@ -1,0 +1,326 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"hai",
+				"hair_up"
+			],
+			[
+				"salo",
+				"salon_id"
+			],
+			[
+				"sa",
+				"salon_id"
+			],
+			[
+				"uns",
+				"unsigned"
+			],
+			[
+				"text",
+				"ifx_textasvarchar"
+			],
+			[
+				"int",
+				"integer"
+			],
+			[
+				"un",
+				"unsigned"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/adam-macbook/Homestead/sites/salonapp"
+	],
+	"file_history":
+	[
+		"/Users/adam-macbook/Homestead/sites/salonapp/.env",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/app/Http/Controllers/PagesController.php",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/app/Http/Controllers/ApprenticeController.php",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/resources/views/pages/team_ind.blade.php",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/app/Http/Controllers/ContactController.php",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/app/Http/Controllers/BlogController.php",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/resources/views/pages/team.blade.php",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/resources/views/pages/team/leon.blade.php",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/resources/views/pages/team/izzy.blade.php",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/composer.lock",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/resources/assets/css/pkstyles.css",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/resources/assets/css/mobile.css",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/database/seeds/TeamMembersTableSeeder.php",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/database/seeds/DatabaseSeeder.php",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/database/migrations/2018_04_23_144312_create_team_members_table.php",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/routes/web.php",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/composer.json",
+		"/Users/adam-macbook/Homestead/sites/paulkemp18/.env",
+		"/Users/adam-macbook/Homestead/sites/wagecalc/app/Http/Controllers/Auth/LoginController.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/routes/web.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/resources/views/home.blade.php",
+		"/Users/adam-macbook/Homestead/sites/wagecalc/routes/web.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/app/Http/Controllers/Auth/LoginController.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/vendor/laravel/framework/src/Illuminate/Auth/Events/Logout.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/app/Http/Controllers/PagesController.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/config/auth.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/app/Http/Controllers/Auth/RegisterController.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/app/Http/Controllers/Auth/ResetPasswordController.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/seeds/stylists_table_seeder.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/seeds/reviews_table_seeder.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2016_03_28_111854_create_stylists_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/seeds/users_table_seeder.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2016_03_28_120259_create_apprentices_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2016_06_23_134053_create_prospects_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2016_10_07_110615_create_offers_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2017_10_11_201806_create_potential_employees_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2017_11_01_174540_add_comments_column_to_potential_emploees_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2016_06_23_134053_create_prospect_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2017_03_23_185347_add_message_sent_column_to_prospects_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2017_03_22_135553_add_opt_out_to_prospects_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2017_03_20_121218_add_gender_to_prospects_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2017_03_01_215712_add_salon_id_to_users_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2016_09_15_133055_create_apprentice_notes_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2016_09_15_133021_create_stylist_notes_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2016_09_29_171813_add_nullable_columns_to_stylists_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2016_09_29_165929_change_column_type_on_stylists_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/migrations/2016_09_29_165341_change_column_type_on_apprentices_table.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/resources/views/pages/home.blade.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/database/seeds/DatabaseSeeder.php",
+		"/Users/adam-macbook/Homestead/sites/jakata18/.env",
+		"/Users/adam-macbook/Homestead/Homestead.yaml",
+		"/Users/adam-macbook/Homestead/sites/wagecalc/app/Http/Controllers/HomeController.php",
+		"/Users/adam-macbook/Homestead/sites/wagecalc/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Users/adam-macbook/Homestead/sites/wagecalc/.env",
+		"/Users/adam-macbook/Homestead/sites/mytest/app/User.php",
+		"/Users/adam-macbook/Homestead/sites/mytest/app/Console/Kernel.php",
+		"/Users/adam-macbook/Homestead/sites/mytest/routes/web.php",
+		"/Users/adam-macbook/Homestead/sites/mytest/resources/views/welcome.blade.php",
+		"/Users/adam-macbook/Homestead/sites/mytest/.env"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "salonapp.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"admin.blade",
+				"resources/views/admin/index.blade.php"
+			],
+			[
+				"logi",
+				"app/Http/Controllers/Auth/LoginController.php"
+			],
+			[
+				"logout",
+				"vendor/laravel/framework/src/Illuminate/Auth/Events/Logout.php"
+			],
+			[
+				"authenticate",
+				"vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php"
+			],
+			[
+				"registercontroller",
+				"app/Http/Controllers/Auth/RegisterController.php"
+			],
+			[
+				"login",
+				"app/Http/Controllers/Auth/LoginController.php"
+			],
+			[
+				"config/auth",
+				"config/auth.php"
+			],
+			[
+				"home",
+				"resources/views/pages/home.blade.php"
+			],
+			[
+				"web",
+				"routes/web.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Homestead/sites/jakata18/jakata18.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
