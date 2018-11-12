@@ -15,6 +15,7 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+Vue.component('nav-bar', require('./components/NavBar.vue'));
 Vue.component('holiday-list', require('./components/holiday/HolidayList.vue'));
 
 const app = new Vue({
