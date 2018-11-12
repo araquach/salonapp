@@ -24,7 +24,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "salonapp\\": "app/"
+            "App\\": "app/"
         }
     },
     "autoload-dev": {

@@ -6,16 +6,14 @@ use App\Holiday;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Requests\HolidayFormRequest;
-use Auth;
 use Carbon\Carbon;
+use Auth;
 
 class HolidayController extends Controller
 {
     
     public function __construct(Holiday $holiday)
-	{
-		$this->middleware('auth');
-		
+	{	
 		$this->holiday = $holiday;
 	}
     

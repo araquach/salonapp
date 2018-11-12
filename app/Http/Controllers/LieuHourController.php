@@ -26,7 +26,7 @@ class LieuHourController extends Controller
      */
     public function index($category = 'upcoming')
     {
-        $user = Auth::user();
+        $user = 1;
         
         if($category == 'awaiting')
 		{
