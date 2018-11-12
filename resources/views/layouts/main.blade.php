@@ -18,7 +18,7 @@
 		    	<a href="{{ url('/freetime/index') }}" class="button">Free Time</a>
 		    </header>
 			
-			<div id="newapp">
+			<div id="app">
 			@yield('content')
 			</div>
 			
@@ -38,7 +38,7 @@
 		                @csrf
 		            </form>
 				@endif
-				@if(Auth::user() && Auth::user()->staff->role == 1)
+				@if(Auth::user())
 					<a href="{{ url('/admin') }}" class="button button-clear">Admin</a>
 				@endif
 			</footer>

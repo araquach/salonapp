@@ -24,7 +24,7 @@ class HolidayController extends Controller
      */
     public function index($category = 'upcoming')
     {
-        $user = Auth::user();
+        /*$user = Auth::user();
         
         if($category == 'awaiting')
 		{
@@ -48,9 +48,11 @@ class HolidayController extends Controller
 	    elseif($category == 'all')
 		{
 			$holidays = Holiday::where('staff_id', '=', $user->id)->get();
-		}
+		}*/
         
-        return view('holiday/index', compact('holidays'));
+        // return view('holiday/index', compact('holidays'));
+
+        return view('holiday/index');
     }
 
     /**
