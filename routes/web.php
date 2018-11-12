@@ -26,6 +26,8 @@ Route::get('/holiday/view/{holiday}', 'HolidayController@show' );
 Route::get('/holiday/{holiday}/edit', 'HolidayController@edit');
 Route::patch('/holiday/{holiday}', 'HolidayController@update');
 
+Route::get('/holidays', 'HolidayController@holidays');
+
 // need destroy routes
 
 // Holiday Admin Routes

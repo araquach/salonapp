@@ -22,37 +22,16 @@ class HolidayController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index($category = 'upcoming')
+    public function index()
     {
-        /*$user = Auth::user();
-        
-        if($category == 'awaiting')
-		{
-			$holidays = Holiday::where('staff_id', '=', $user->id)
-			->where('approved', '=', 0)
-			->get();
-		}
-		elseif($category == 'upcoming') 
-		{
-			$holidays = Holiday::where('staff_id', '=', $user->id)
-			->where('approved', '=', 2)
-			->where('request_date_from', '>=', Carbon::now())
-			->get();
-		}
-		elseif($category == 'denied') 
-		{
-			$holidays = Holiday::where('staff_id', '=', $user->id)
-		    ->where('approved', '=', 1)
-			->get();
-		}
-	    elseif($category == 'all')
-		{
-			$holidays = Holiday::where('staff_id', '=', $user->id)->get();
-		}*/
-        
-        // return view('holiday/index', compact('holidays'));
-
         return view('holiday/index');
+    }
+
+    public function holidays()
+    {
+        $holidays = Holiday::get();
+        
+        return $holidays->toJson();
     }
 
     /**

@@ -1,9 +1,9 @@
 <template>
     <div>
-        <ul class="list">
-            <li>Test</li>
-            <li>What a result!</li>
-            <li>Yaaaaas!</li>
+        <ul v-for="holiday in holidays" class="list">
+            <li>{{ holiday.hours_requested }}</li>
+            <li>{{ holidayid }}</li>
+            <li>{{ holidayprebooked }}</li>
         </ul>
     </div>
 </template>

@@ -47377,24 +47377,20 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("ul", { staticClass: "list" }, [
-        _c("li", [_vm._v("Test")]),
+  return _c(
+    "div",
+    _vm._l(_vm.holidays, function(holiday) {
+      return _c("ul", { staticClass: "list" }, [
+        _c("li", [_vm._v(_vm._s(holiday.hours_requested))]),
         _vm._v(" "),
-        _c("li", [_vm._v("What a result!")]),
+        _c("li", [_vm._v(_vm._s(_vm.holidayid))]),
         _vm._v(" "),
-        _c("li", [_vm._v("Yaaaaas!")])
+        _c("li", [_vm._v(_vm._s(_vm.holidayprebooked))])
       ])
-    ])
-  }
-]
+    })
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
